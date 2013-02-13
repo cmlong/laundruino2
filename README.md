@@ -3,14 +3,14 @@ laundruino2
 
 Reports laundry cycle completion utilizing a wireless network and arduino
 
-The Laundruino 2
-  
 The Laundruino 2 is a modification of the Laundruino created by
 Michael Clemens (http://github.com/exitnode). The Laundruino 2 
 reads the analog value from a photocell connected to an xbee module. 
 The analog value is transmitted from xbee at the washer to the xbee 
-on the arduino / ethernet sheild stack. Currently the ethernet shield
-is running as a web server per Michael Clemens's design.
+on the arduino / ethernet sheild stack (some xbee code used from
+Robert Faludi's 'Building Wireless Sensor Networks' book). Currently 
+the ethernet shield is running as a web server per Michael Clemens's 
+design.
 
 TODO
 
